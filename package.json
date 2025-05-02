@@ -2,7 +2,7 @@
   "name": "quiz-pm",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://tlysandre.github.io/pm-quiz/",
+  "homepage": "https://tlysandre.github.io/pm-quiz/src/main.jsx",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",

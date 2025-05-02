@@ -1,0 +1,97 @@
+/* goofy.css */
+.goofy-mode {
+    background-color: #ff69b4; /* Rose bonbon */
+    color: #00ff00; /* Vert fluo */
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+  }
+  
+  .goofy-mode .glow-text {
+    text-shadow: 2px 2px 4px #ff0000; /* Ombre rouge */
+    font-size: 3em;
+  }
+  
+  .goofy-mode .card {
+    border: 5px dashed #ff0000; /* Bordure rouge en pointillés */
+    background-color: #ffff00; /* Fond jaune fluo */
+  }
+  
+  .goofy-mode .feature {
+    border: 2px solid #00ffff; /* Bordure cyan */
+    padding: 10px;
+    margin: 10px;
+    background-color: #ff69b4; /* Fond rose bonbon */
+  }
+  
+  .goofy-mode .background-gradient {
+    background: linear-gradient(45deg, #ff0000, #ffff00, #00ff00, #00ffff, #0000ff, #ff00ff); /* Gradient arc-en-ciel */
+  }
+  
+  .goofy-mode .background-stars {
+    background-image: radial-gradient(circle, #ff0000, #00ff00, #0000ff); /* Étoiles multicolores */
+  }
+  
+  .goofy-mode .grid-lines {
+    border: 2px dashed #ff0000; /* Bordure rouge en pointillés */
+    background-color: rgba(255, 255, 0, 0.5); /* Fond jaune semi-transparent */
+  }
+  
+  .goofy-mode .background-glow {
+    background-color: #ff69b4; /* Rose bonbon */
+    box-shadow: 0 0 20px #00ff00; /* Ombre verte */
+  }
+  
+  .goofy-mode .quiz-page,
+  .goofy-mode .results-page {
+    background-color: #ff69b4; /* Rose bonbon */
+    border: 3px solid #00ff00; /* Bordure verte */
+    padding: 20px;
+  }
+  
+  .goofy-mode .result-card {
+    background-color: #ff69b4; /* Rose bonbon */
+    border: 3px solid #00ff00; /* Bordure verte */
+    padding: 20px;
+  }
+  
+  .goofy-mode .question-container {
+    background-color: #ff69b4; /* Rose bonbon */
+    border: 3px solid #00ff00; /* Bordure verte */
+    padding: 20px;
+  }
+  
+  .goofy-mode .question-title {
+    color: #ff0000; /* Texte rouge */
+    font-size: 2em;
+  }
+  
+  .goofy-mode .answer-option {
+    background-color: #ffff00; /* Fond jaune fluo */
+    border: 2px dashed #ff0000; /* Bordure rouge en pointillés */
+    margin: 10px 0;
+    padding: 15px;
+    cursor: pointer;
+  }
+  
+  .goofy-mode .answer-option.selected {
+    background-color: #00ff00; /* Fond vert fluo */
+    border-color: #0000ff; /* Bordure bleue */
+  }
+  
+  .goofy-mode .answer-text {
+    color: #0000ff; /* Texte bleu */
+    font-size: 1.2em;
+  }
+  
+ .toggle-button {
+    position: fixed; /* Assurez-vous que le bouton est fixé en haut à droite */
+    top: 10px;
+    right: 10px;
+    background-color: #ffff00; /* Jaune fluo */
+    border: 2px solid #0000ff; /* Bleu */
+    padding: 10px 20px;
+    cursor: pointer;
+    z-index: 1000; /* Assurez-vous que le bouton est toujours visible */
+    font-size: 16px;
+    color: #000;
+  }
+  

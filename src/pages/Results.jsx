@@ -5,7 +5,7 @@ import { useGoofyMode } from '../context/GoofyModeContext';
 import '../styles/results.css';
 import '../styles/goofy.css';
 
-const Results = ({ result, onRestart }) => {
+const Results = ({ result, onRestart, navigateTo }) => {
   const { isGoofyMode } = useGoofyMode();
   const resultData = resultProfiles[result] || resultProfiles.default;
 
@@ -16,6 +16,7 @@ const Results = ({ result, onRestart }) => {
       <ResultCard
         result={resultData}
         onRestart={onRestart}
+        onDiscoverPMs={() => navigateTo('presentationPM')}
       />
     </div>
   );

@@ -1,0 +1,53 @@
+.crazy-pms-page {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .pm-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .pm-card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 1rem;
+    width: 250px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s ease;
+  }
+  
+  .pm-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .pm-image {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+        /* Aligner verticalement les images dans la carte */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .pm-name {
+    font-size: 1.5rem;
+    margin: 1rem 0 0.5rem;
+    background: linear-gradient(45deg, var(--primary-color), var(--secondary-color), var(--accent-color));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .pm-description {
+    font-style: italic;
+    color: #555;
+  }
+  

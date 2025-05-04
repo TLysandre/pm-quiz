@@ -5,6 +5,7 @@ import Quiz from './pages/Quiz';
 import Results from './pages/Results';
 import Background from './components/Background';
 import './styles/global.css';
+import PresentationPM from './pages/PresentationPM';
 
 function App() {
   const [page, setPage] = useState('home');
@@ -49,7 +50,7 @@ const AppContent = ({ page, navigateTo, answers, handleAnswers, handleResults, r
   return (
     <div className="app-container">
       <button className="toggle-button" onClick={toggleGoofyMode}>
-        {isGoofyMode ? 'Mode Normal' : 'Mode A l\'arrache'}
+        {isGoofyMode ? 'Mode Normal' : 'Mode à chier'}
       </button>
       <Background />
       <div className="content">
@@ -61,7 +62,7 @@ const AppContent = ({ page, navigateTo, answers, handleAnswers, handleResults, r
             onComplete={handleResults}
           />
         )}
-        {page === 'results' && (
+       {page === 'results' && (
           <Results
             result={result}
             onRestart={() => {
@@ -69,7 +70,11 @@ const AppContent = ({ page, navigateTo, answers, handleAnswers, handleResults, r
               setResult(null);
               navigateTo('home');
             }}
+            navigateTo={navigateTo}
           />
+        )}
+        {page === 'presentationPM' && (
+          <PresentationPM />
         )}
       </div>
     </div>
